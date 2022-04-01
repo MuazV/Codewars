@@ -8,10 +8,11 @@
 
 
 # Solution-1
-# def accum(s):
-#   return "-".join([(s[i]*(i+1)).title() for i in range(len(s))])
+def accumm(s):
+  return "-".join([(s[i]*(i+1)).title() for i in range(len(s))])
 
-#Solution-2
+# Solution-2
+
 def accum(item):
     liste = []
     for i in range(len(item)):
